@@ -34,13 +34,15 @@ You can also check my [`.dotfiles`](https://github.com/sobolevn/dotfiles) with t
 
 Theme with [my VSCode settings](https://github.com/sobolevn/dotfiles/tree/master/vscode):
 
+![minimal](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/minimal.png)
+
 ![main](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/main.png)
 
 Theme with default VSCode settings:
 
 ![default](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/default.png)
 
-![pustota](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/default-terminal.png)
+![default-terminal](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/default-terminal.png)
 
 ## Thanks to
 

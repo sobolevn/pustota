@@ -4,6 +4,11 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.4
+
+- Fix several Markdown syntax highlights
+- Fixed theme name to be lowercase: `pustota`
+
 ## 0.0.3
 
 - Fixes multiple JS and TS syntax highlights

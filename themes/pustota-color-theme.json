@@ -411,7 +411,8 @@
         // CSS / SCSS / SASS / Stylus:
         "entity.name.tag.css",
         // Markdown
-        "string.other.link.title",
+        "meta.link.inline string.other.link.title",
+        "meta.image.inline string.other.link.description",
       ],
       "settings": {
         "foreground": "#59C2FF",
@@ -427,6 +428,9 @@
         "entity.name.function.support",
         "entity.name.function.decorator",
         "meta.function.decorator support.type",
+
+        // Special case: no special formatting for invalid nodes:
+        "invalid",
 
         // Some operators are just punctuation:
         "keyword.operator.key-value",
