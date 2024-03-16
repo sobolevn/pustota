@@ -22,6 +22,10 @@ Basically, this is it.
 
 Pairs greatly with [`FiraCode`](https://github.com/tonsky/FiraCode) font and [`sobole`](https://github.com/sobolevn/sobole-zsh-theme) theme for ZSH.
 
+This theme does not include an icon theme, so you can use any:
+- `Ayu` has a great one that I am using
+- `Seti` - the default one - is also fine
+
 You can also check my [`.dotfiles`](https://github.com/sobolevn/dotfiles) with the whole setup.
 
 ## Thanks to
