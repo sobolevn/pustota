@@ -28,6 +28,18 @@ This theme does not include an icon theme, so you can use any:
 
 You can also check my [`.dotfiles`](https://github.com/sobolevn/dotfiles) with the whole setup.
 
+## Showcase
+
+Theme with [my VSCode settings](https://github.com/sobolevn/dotfiles/tree/master/vscode):
+
+![main](https://raw.githubusercontent.com/sobolevn/pustota/master/asserts/main.png)
+
+Theme with default VSCode settings:
+
+![default](https://raw.githubusercontent.com/sobolevn/pustota/master/asserts/default.png)
+
+![pustota](https://raw.githubusercontent.com/sobolevn/pustota/master/asserts/default-terminal.png)
+
 ## Thanks to
 
 - [Ayu Dark](https://github.com/ayu-theme/vscode-ayu) which was the main source of the style and colors (and even some tests)
