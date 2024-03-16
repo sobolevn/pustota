@@ -22,8 +22,6 @@
     // 1. Colors
     // 2. ANSI
     // 3. Search bar border
-    // 4. Overlays: should be OVER
-    // 5. Terminal border
 
     // Editor
     // ======
@@ -83,7 +81,9 @@
 		"editorSuggestWidget.highlightForeground": "#e5b358",
 		"editorSuggestWidget.selectedBackground": "#1c2a42",
 		"editorWhitespace.foreground": "#4d556699",
-		"editorWidget.background": "#0d1016",
+		"editorWidget.background": "#0A0E14",
+    "editorWidget.resizeBorder": "#0A0E14",
+    "editorWidget.border": "#0A0E14",
 
     // I do these customizations locally,
     // because I don't want to see any decorations
