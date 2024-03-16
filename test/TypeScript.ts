@@ -13,6 +13,10 @@ type PerformerHandler<T> = Matcher & {
   handler: (message: UserMessage, bot: T) => any
 }
 
+interface Some {
+  a: string
+}
+
 export abstract class Bot<BotMessage = any> extends OtherClass {
   /** @internal */
   _dialogHandlers: DialogHandler<this>[] = []

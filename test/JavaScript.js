@@ -33,9 +33,9 @@ export class Bot {
     const performer = this._performerHandlers.find(c => c.match(message));
     if (performer) return performer.handler(message, this);
     const channel = this._channelFor(message.channel);
-    const hasActions = channel.hasFor(message.user);
+    var hasActions = channel.hasFor(message.user);
     if (hasActions) return channel.processMessage(message);
-    const dialog = this._dialogHandlers.find(c => c.match(message));
+    let dialog = this._dialogHandlers.find(c => c.match(message));
 
     if (dialog) {
       const obj = this.dialog(message.channel, [message.user]);

@@ -62,13 +62,13 @@
 		"editorGutter.addedBackground": "#91b36299",
 		"editorGutter.deletedBackground": "#d96c7599",
 		"editorGutter.modifiedBackground": "#6994bf99",
-		"editorHoverWidget.background": "#0d1016",
+		"editorHoverWidget.background": "#0A0E14",
 		"editorHoverWidget.border": "#000000",
 		"editorIndentGuide.activeBackground": "#4d5566b3",
 		"editorIndentGuide.background": "#4d556666",
 		"editorInfo.foreground": "#00000000",
 		"editorLink.activeForeground": "#e6b450",
-		"editorMarkerNavigation.background": "#0d1016",
+		"editorMarkerNavigation.background": "#0A0E14",
 		"editorOverviewRuler.addedForeground": "#91b36299",
 		"editorOverviewRuler.border": "#00010a",
 		"editorOverviewRuler.deletedForeground": "#d96c7599",
@@ -76,7 +76,7 @@
 		"editorOverviewRuler.modifiedForeground": "#6994bf99",
 		"editorOverviewRuler.warningForeground": "#e6b450",
 		"editorRuler.foreground": "#4d556666",
-		"editorSuggestWidget.background": "#0d1016",
+		"editorSuggestWidget.background": "#0A0E14",
 		"editorSuggestWidget.border": "#0A0E14",
 		"editorSuggestWidget.highlightForeground": "#e5b358",
 		"editorSuggestWidget.selectedBackground": "#1c2a42",
@@ -114,7 +114,7 @@
 		"activityBar.foreground": "#B3B1ADBF",
 		"activityBar.inactiveForeground": "#4d556699",
     "activityBarBadge.background": "#e6b450",
-		"activityBarBadge.foreground": "#0a0e14",
+		"activityBarBadge.foreground": "#0A0E14",
 
     // Sidebar
     "sideBar.background": "#0A0E14",
@@ -144,22 +144,22 @@
 		"inputValidation.warningBackground": "#0A0E14",
 		"inputValidation.warningBorder": "#E6B450",
 
-    "debugExceptionWidget.background": "#0d1016",
+    "debugExceptionWidget.background": "#0A0E14",
 		"debugExceptionWidget.border": "#0A0E14",
-		"debugToolBar.background": "#0d1016",
+		"debugToolBar.background": "#0A0E14",
 		"descriptionForeground": "#4d5566",
 		"diffEditor.insertedTextBackground": "#c2d94c26",
 		"diffEditor.removedTextBackground": "#f2966826",
-		"dropdown.background": "#0d1016",
+		"dropdown.background": "#0A0E14",
 		"dropdown.border": "#2b303a",
 		"dropdown.foreground": "#4d5566",
 
-    "textBlockQuote.background": "#0d1016",
+    "textBlockQuote.background": "#0A0E14",
 		"textLink.activeForeground": "#e6b450",
 		"textLink.foreground": "#e6b450",
 		"textPreformat.foreground": "#b3b1ad",
 		"tree.indentGuidesStroke": "#4d5566b3",
-		"walkThrough.embeddedEditorBackground": "#0d1016",
+		"walkThrough.embeddedEditorBackground": "#0A0E14",
 		"widget.shadow": "#0A0E14",
 
     "list.hoverBackground": "#0A0E14",
@@ -168,7 +168,6 @@
     "list.activeSelectionForeground": "#E6B450",
     "list.inactiveSelectionBackground": "#0A0E14",
     "list.focusAndSelectionOutline": "#0A0E14", // no visial border
-    // Not reworked yet:
 		"list.errorForeground": "#FF8F40",
 		"list.filterMatchBackground": "#e6b4500d",
 		"list.filterMatchBorder": "#e6b450",
@@ -183,12 +182,12 @@
 
     // TODO: rework all the small things
     "peekView.border": "#0A0E14",
-		"peekViewEditor.background": "#0d1016",
+		"peekViewEditor.background": "#0A0E14",
 		"peekViewEditor.matchHighlightBackground": "#e6b45033",
-		"peekViewResult.background": "#0d1016",
+		"peekViewResult.background": "#0A0E14",
 		"peekViewResult.fileForeground": "#4d5566",
 		"peekViewResult.matchHighlightBackground": "#e6b45033",
-		"peekViewTitle.background": "#0d1016",
+		"peekViewTitle.background": "#0A0E14",
 		"peekViewTitleDescription.foreground": "#4d5566",
 		"peekViewTitleLabel.foreground": "#4d5566",
 		"pickerGroup.border": "#0A0E14",
@@ -229,7 +228,7 @@
 		"statusBar.debuggingBackground": "#f29668",
 		"statusBar.debuggingForeground": "#0a0e14",
 		"statusBar.foreground": "#4d5566",
-		"statusBar.noFolderBackground": "#0d1016",
+		"statusBar.noFolderBackground": "#0A0E14",
 		"statusBarItem.activeBackground": "#00010a",
 		"statusBarItem.hoverBackground": "#00010a",
 		"statusBarItem.prominentBackground": "#00010a",
@@ -327,11 +326,16 @@
         "storage.type.class",
         "punctuation.definition.decorator",  // `@` operator
         "punctuation.definition.annotation",
+        "punctuation.decorator",
         "constant.character",  // `\` operator
         "punctuation.separator.continuation.line",
 
+        // JS:
+        "meta.method.declaration storage.type",  // `constructor`
         // TS:
-        "meta.var.expr storage.type",
+        "meta.var.expr storage.type",  // `type`
+        "meta.interface storage.type.interface",  // `interface`
+        "meta.type.declaration storage.type.type",
         // Rust:
         "punctuation.definition.attribute",  // `#[]`
         "punctuation.brackets.attribute",
@@ -396,6 +400,9 @@
         "meta.module entity.name.type.module",
         // Haskell:
         "meta.declaration storage.type.haskell",
+        // TS:
+        "meta.type.declaration entity.name.type.alias",
+        "meta.interface entity.name.type.interface",
 
         // ---
         // Not really types, but these elements also need a color accent
@@ -470,16 +477,6 @@
       "settings": {
         "fontStyle": "strikethrough",
       }
-    },
-
-    // Errors
-    {
-      "scope": [
-        "invalid",
-      ],
-      "settings": {
-        "fontStyle": "underline",
-      }
-    },
+    }
 	]
 }
