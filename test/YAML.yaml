@@ -1,0 +1,19 @@
+---
+
+# Base scripts
+# ============
+
+test:
+  stage: 'test'
+  name: example
+  extends: ".docker"
+  before_script:
+    - *docker-before-script
+    # Pulling cache:
+    - docker pull "${IMAGE_FULL_NAME}:dev" || true
+  allow_failure: false
+  timeout: 10.0
+  only:
+    - master
+  environment:
+    name: production  # used to track time with 'cycle analytics'

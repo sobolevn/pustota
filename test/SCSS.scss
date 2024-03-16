@@ -1,0 +1,33 @@
+body {
+  > #container {
+    background: url("link") no-repeat;
+    margin: 0 auto;
+    width: 500px;
+    flow-direction: column;
+  }
+}
+
+div[role="main"] {
+  @include background-image(
+    linear-gradient(
+      lighten($color1, 30%),
+    ),
+  );
+
+  .other,
+  li.some {
+    color: $fontcolor1;
+  }
+}
+
+@mixin buttons(
+  $basicBorder: 1px,
+  $gradient1: #fff,
+  $gradient2: #d8dee7,
+) {}
+
+@function square($number) {
+  $result: $number * square($number);  // inline comment
+  @return $result;
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "pustota",
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+  "custom": [
+    {"a": 1, "b": true, "c": null},
+  ]
+}

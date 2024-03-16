@@ -1,0 +1,304 @@
+{
+  "name": "pustota",
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+
+  // Colors:
+  // Black: #0A0E14
+  // Grey: #B3B1AD
+  // Light grey: #B3B1ADBF // 75% alpha
+  // Yellow: #E6B450
+  // Orange: #FFB454
+  // Red: #FF8F40
+  // Blue: #59C2FF
+
+  // There are several default VSCode colors that we don't customize:
+  // - diffs
+  // - replacements
+  // - some other internals
+
+  "colors": {
+    // TODO:
+    // 1. Colors
+    // 2. ANSI
+    // 3. Search bar border
+    // 4. Overlays: should be OVER
+    // 5. Terminal border
+    // "activityBar.activeBorder": "#e5b358",
+		// "activityBar.background": "#0a0e14",
+		// "activityBar.border": "#0a0e14",
+		// "activityBar.foreground": "#797d7b",
+		// "activityBar.inactiveForeground": "#4d556699",
+
+    // Editor
+    // ======
+
+    // Editor does contain some extra colors, because this is what I'm used to.
+    "editor.background": "#0A0E14",
+		"editor.findMatchBackground": "#0A0E14",
+		"editor.findMatchBorder": "#E6B450",
+		"editor.findMatchHighlightBackground": "#e6b4500d",
+		"editor.findMatchHighlightBorder": "#E6B450BE",
+		"editor.findRangeHighlightBackground": "#1b2733f2",
+		"editor.findRangeHighlightBorder": "#0a0e1400",
+		"editor.foreground": "#b3b1ad",
+		"editor.inactiveSelectionBackground": "#1b2733f2",
+		"editor.lineHighlightBackground": "#00010a",
+		"editor.rangeHighlightBackground": "#00010af2",
+		"editor.selectionBackground": "#273747",
+		"editor.selectionHighlightBackground": "#1b2733f2",
+		"editor.selectionHighlightBorder": "#304357",
+		"editor.wordHighlightBackground": "#6994bf12",
+		"editor.wordHighlightBorder": "#6994bf80",
+		"editor.wordHighlightStrongBackground": "#91b36212",
+		"editor.wordHighlightStrongBorder": "#91b36280",
+
+    "editorLineNumber.activeForeground": "#B3B1ADCC",
+		"editorLineNumber.foreground": "#B3B1AD80",
+
+    // I am just used to these colors:
+    "gitDecoration.addedResourceForeground": "#c2d94c",
+		"gitDecoration.conflictingResourceForeground": "#ff0000",
+		"gitDecoration.deletedResourceForeground": "#d96c75b3",
+		"gitDecoration.ignoredResourceForeground": "#373d49",
+		"gitDecoration.modifiedResourceForeground": "#d4cb68",
+		"gitDecoration.submoduleResourceForeground": "#ffee99b3",
+		"gitDecoration.untrackedResourceForeground": "#91b362b3",
+
+    // General
+    // =======
+
+    "focusBorder": "#0A0E14",  // no visial border
+
+    "sideBar.background": "#0A0E14",
+		"sideBar.border": "#0A0E14",
+		"sideBar.foreground": "#B3B1ADBF",
+		"sideBarSectionHeader.background": "#0A0E14",
+		"sideBarSectionHeader.border": "#0A0E14",
+		"sideBarSectionHeader.foreground": "#B3B1ADBF",
+		"sideBarTitle.foreground": "#0A0E14",
+
+    "list.hoverBackground": "#0A0E14",
+    "list.hoverForeground": "#B3B1AD",
+    "list.activeSelectionBackground": "#0A0E14",
+    "list.activeSelectionForeground": "#E6B450",
+    "list.inactiveSelectionBackground": "#0A0E14",
+    "list.focusAndSelectionOutline": "#0A0E14", // no visial border
+
+    "titleBar.activeBackground": "#0A0E14",
+		"titleBar.activeForeground": "#B3B1AD",
+		"titleBar.border": "#0A0E14",  // no visial border
+		"titleBar.inactiveBackground": "#0a0e14",
+		"titleBar.inactiveForeground": "#B3B1AD",
+	},
+
+	"tokenColors": [
+    // Group 1: comments
+		{
+			"scope": [
+				"comment",
+			],
+			"settings": {
+				"foreground": "#626A73",
+				"fontStyle": "italic"
+			}
+		},
+
+    // Group 2: strings / text
+		{
+			"scope": [
+				"string",
+				"constant.other.symbol",
+
+        // Markdown:
+        "markup.quote meta.paragraph",
+			],
+			"settings": {
+				"foreground": "#C2D94C"
+			}
+		},
+
+    // Group 3: constants
+		{
+			"scope": [
+				"constant.numeric",
+        "constant.language",
+        "support.constant",
+
+        // CSS:
+        "constant.other.color",
+        // HTML:
+        "string.unquoted.html",
+			],
+			"settings": {
+				"foreground": "#E6B450"
+			}
+		},
+
+    // Group 4: keywords and operators
+    {
+			"scope": [
+				"keyword",
+        "keyword.operator",
+        "storage.modifier",
+        "support.macro",
+        "storage.type.function",
+        "storage.type.class",
+        "punctuation.definition.decorator",  // `@` operator
+        "punctuation.definition.annotation",
+        "constant.character",  // `\` operator
+        "punctuation.separator.continuation.line",
+
+        // TS:
+        "meta.var.expr storage.type",
+        // Rust:
+        "punctuation.definition.attribute",  // `#[]`
+        "punctuation.brackets.attribute",
+        // Markdown
+        "entity.name.section",  // headers
+        // HTML / JSX / TSX
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+			],
+			"settings": {
+				"foreground": "#FF8F40",
+			}
+		},
+
+    // Group 5: Function definitions
+    {
+      "scope": [
+        "meta.definition entity.name.function",
+        "meta.definition support.function",
+        "meta.function.definition entity.name.function",
+
+        // Python:
+        "meta.function.python entity.name.function",
+        "meta.function.python support.function",
+        // Rust:
+        "meta.macro.rules entity.name.function.macro.rust",
+        // Ruby:
+        "meta.function.method entity.name.function",
+        // Haskell:
+        "meta.function.type-declaration entity.name.function",
+        // SASS / SCSS:
+        "meta.at-rule entity.name.function",
+        "meta.at-rule support.function",
+
+        // ---
+        // Not really functions, but these elements also need a color accent
+        // ---
+
+        // Markdown
+        "markup.inline.raw.string",
+        // HTML / JSX / TSX
+        "entity.other.attribute-name",
+      ],
+      "settings": {
+				"foreground": "#FFB454",
+			}
+    },
+
+    // Group 6: Type definitons
+    {
+      "scope": [
+        "meta.class entity.name.type",
+
+        // C:
+        "source.c storage.type",
+        // Rust:
+        "entity.name.type.struct",
+        "entity.name.type.trait",
+        // Dart:
+        "support.class.dart",
+        // Elixir:
+        "meta.module entity.name.type.module",
+        // Haskell:
+        "meta.declaration storage.type.haskell",
+
+        // ---
+        // Not really types, but these elements also need a color accent
+        // ---
+
+        // CSS / SCSS / SASS / Stylus:
+        "entity.name.tag.css",
+        // Markdown
+        "string.other.link.title",
+      ],
+      "settings": {
+        "foreground": "#59C2FF",
+      }
+    },
+
+    // Everything else:
+    {
+      "scope": [
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "entity.name.type.package",
+        "entity.name.function.support",
+        "entity.name.function.decorator",
+        "meta.function.decorator support.type",
+
+        // Some operators are just punctuation:
+        "keyword.operator.key-value",
+        "keyword.operator.access.dot",
+        "keyword.operator.namespace",
+
+        // TS
+        "meta.type.annotation entity.name.type",
+        "meta.return.type entity.name.type",
+        "meta.type.parameters entity.name.type",
+        "keyword.operator.type.annotation.ts",
+        // JSON
+        "support.type.property-name",
+        // YAML
+        "entity.name.tag.yaml",
+        // CSS
+        "string.quoted.double.attribute-value",
+        // Elixir and Ruby:
+        "constant.language.symbol",
+        "constant.other.symbol.hashkey",
+      ],
+      "settings": {
+        "foreground": "#B3B1AD",
+      }
+    },
+
+    // Special cases (font changes, mostly for markup languages)
+    {
+      "scope": [
+        "markup.italic",
+      ],
+      "settings": {
+        "fontStyle": "italic",
+      }
+    },
+    {
+      "scope": [
+        "markup.bold",
+      ],
+      "settings": {
+        "fontStyle": "bold",
+      }
+    },
+    {
+      "scope": [
+        "markup.strikethrough",
+      ],
+      "settings": {
+        "fontStyle": "strikethrough",
+      }
+    },
+
+    // Errors
+    {
+      "scope": [
+        "invalid",
+      ],
+      "settings": {
+        "fontStyle": "underline",
+      }
+    },
+	]
+}

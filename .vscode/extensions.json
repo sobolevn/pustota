@@ -1,0 +1,15 @@
+{
+  // @see https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions
+  "recommendations": [
+    // `Vue`:
+    "vue.volar",
+    // Rust:
+    "rust-lang.rust-analyzer",
+    // Python:
+    "ms-python.python",
+    // Elixir:
+    "jakebecker.elixir-ls",
+    // Haskell:
+    "haskell.haskell",
+  ]
+}

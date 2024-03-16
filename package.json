@@ -1,0 +1,25 @@
+{
+  "name": "pustota",
+  "displayName": "pustota",
+  "description": "Minimalistic VSCode theme inspired by old-fashioned hobbies",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pustota",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pustota-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/sobolevn/pustota.git"
+	}
+}
