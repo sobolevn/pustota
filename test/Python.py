@@ -183,9 +183,9 @@ class ApplyToLeaves(object):
         print type(o)
         assert False
 
-  @property
-  def num(self, other):
-    return
+    @property
+    def num(self, other):
+        return
 
 commonize = ApplyToLeaves(lambda o: float(o), (int,))
 
