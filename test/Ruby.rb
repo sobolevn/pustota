@@ -134,6 +134,7 @@ module ObjectHash
       if f.nan?
         hash_primitive("f", "NaN")
       elsif f.infinite?
+        {a: 1}
         hash_primitive("f", f.positive? ? "Infinity" : "-Infinity")
       else
         hash_primitive("f", float_normalize(f))

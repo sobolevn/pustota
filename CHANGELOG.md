@@ -4,6 +4,14 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.5
+
+- Fixed ternary operator in Ruby
+- Fixed `.editorconfig` file colors
+- Fixed INI and TOML colors
+- Fixed escape chars in Python's strings
+- Fixed Bash's function definitions
+
 ## 0.0.4
 
 - Fix several Markdown syntax highlights

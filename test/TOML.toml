@@ -1,0 +1,83 @@
+[tool.poetry]
+name = "inspect313"
+description = "Backport of `inspect` module from Python3.13"
+version = "0.1.0"
+license = "MIT"
+
+authors = [
+  "sobolevn <mail@sobolevn.me>",
+]
+
+readme = "README.md"
+
+repository = "https://github.com/wemake-services/inspect313"
+
+keywords = [
+  "inspect",
+  "python",
+  "signature",
+  "backport",
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typing-extensions = "^4.10"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8"
+
+pytest = "^8.1"
+pytest-cov = "^4.1"
+pytest-randomly = "^3.15"
+ruff = "^0.3"
+
+
+[tool.ruff]
+line-length = 80
+fix = true
+
+[tool.ruff.lint]
+select = ['F', 'I']
+fixable = ['ALL']
+
+
+
+[tool.pytest.ini_options]
+addopts = [
+  '--strict-markers',
+  '--strict-config',
+  '--tb=short',
+  '--doctest-modules',
+]
+
+
+[tool.mypy]
+enable_error_code = [
+  'truthy-bool',
+  'redundant-expr',
+  'unused-awaitable',
+  'ignore-without-code',
+  'possibly-undefined',
+  'redundant-self',
+]
+
+strict = true
+warn_unreachable = true
+explicit_package_bases = true
+
+[[tool.mypy.overrides]]
+module = 'tests.*'
+# We want some functions with annotations and some without:
+disable_error_code = ['no-untyped-def']
+
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"

@@ -10,8 +10,8 @@ def hash_fn(x: int | str | tuple[str, ...]) -> int:
     """Docstring
 
     Multiline."""
-    formatted = f'Here {globals()["b"]} there'
-    bin = b'1234'
+    formatted = f'Here {globals()["b"]} there \n'
+    bin = b'1234' if a else b''
 
     if 1 == 1 and \
         2 == 2:

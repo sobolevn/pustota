@@ -289,6 +289,7 @@
       "scope": [
         "string",
         "constant.other.symbol",
+        "constant.character.escape",
 
         // Markdown:
         "markup.quote meta.paragraph",
@@ -327,9 +328,10 @@
         "punctuation.definition.decorator",  // `@` operator
         "punctuation.definition.annotation",
         "punctuation.decorator",
-        "constant.character",  // `\` operator
         "punctuation.separator.continuation.line",
 
+        // C:
+        "constant.character.escape.line-continuation",  // `\` operator
         // JS:
         "meta.method.declaration storage.type",  // `constructor`
         // TS:
@@ -339,11 +341,18 @@
         // Rust:
         "punctuation.definition.attribute",  // `#[]`
         "punctuation.brackets.attribute",
-        // Markdown
-        "entity.name.section",  // headers
-        // HTML / JSX / TSX
+        // Ruby:
+        "punctuation.separator.other.ruby",  // `:` in ternary
+        // Markdown:
+        "source.markdown entity.name.section",  // headers
+        // HTML / JSX / TSX:
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end",
+        // TOML:
+        "source.toml support.type.property-name.table",
+        "source.toml support.type.property-name.array",
+        // INI:
+        "entity.name.section.group-title",
       ],
       "settings": {
         "foreground": "#FF8F40",
@@ -369,14 +378,16 @@
         // SASS / SCSS:
         "meta.at-rule entity.name.function",
         "meta.at-rule support.function",
+        // Bash:
+        "meta.function entity.name.function.shell",
 
         // ---
         // Not really functions, but these elements also need a color accent
         // ---
 
-        // Markdown
+        // Markdown:
         "markup.inline.raw.string",
-        // HTML / JSX / TSX
+        // HTML / JSX / TSX:
         "entity.other.attribute-name",
       ],
       "settings": {
@@ -437,20 +448,29 @@
         "keyword.operator.access.dot",
         "keyword.operator.namespace",
 
-        // TS
+        // TS:
         "meta.type.annotation entity.name.type",
         "meta.return.type entity.name.type",
         "meta.type.parameters entity.name.type",
         "keyword.operator.type.annotation.ts",
-        // JSON
+        // JSON:
         "support.type.property-name",
-        // YAML
+        // YAML:
         "entity.name.tag.yaml",
-        // CSS
+        // CSS:
         "string.quoted.double.attribute-value",
         // Elixir and Ruby:
         "constant.language.symbol",
         "constant.other.symbol.hashkey",
+        // editorconfig:
+        "source.editorconfig keyword.other.definition",
+        // INI:
+        "source.ini punctuation.definition.entity",
+        "keyword.other.definition.ini",
+        // Bash:
+        "string.unquoted.argument.shell",
+        "string.interpolated.dollar.shell",
+        "source.shell string.unquoted.argument",
       ],
       "settings": {
         "foreground": "#B3B1AD",

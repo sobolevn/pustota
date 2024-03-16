@@ -16,7 +16,7 @@ export class Bot {
   /** @internal */
   _channelFor(channelId) {
     const channel = this._channels.get(channelId) || new Channel();
-    this._channels.set(channelId, channel);
+    this._channels.set(channelId, channel ? 1 : 4);
     return channel;
   }
 
