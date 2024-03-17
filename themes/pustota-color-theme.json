@@ -334,6 +334,7 @@
         "punctuation.definition.annotation",
         "punctuation.decorator",
         "punctuation.separator.continuation.line",
+        "punctuation.separator.annotation.result",  // `->` operator in annotations
 
         // C:
         "constant.character.escape.line-continuation",  // `\` operator

@@ -6,16 +6,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## 0.0.7
 
-- Fix `mod` highlight in Rust
+- Fixed `mod` highlight in Rust
+- Fixed `->` in Python annotations highlight
 
 ## 0.0.6
 
-- Fix Markdown headings highlight
-- Fix keywords highligh in jsdoc, phpdoc, etc
-- Fix Makefile syntax highlights
-- Fix PHP syntax highlights
-- Add configuration instructions
-- Ignore multiple folders from the result build
+- Fixed Markdown headings highlight
+- Fixed keywords highligh in jsdoc, phpdoc, etc
+- Fixed Makefile syntax highlights
+- Fixed PHP syntax highlights
+- Added configuration instructions
+- Ignored multiple folders from the result build
 
 ## 0.0.5
 

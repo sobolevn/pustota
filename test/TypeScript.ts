@@ -32,13 +32,13 @@ export abstract class Bot<BotMessage = any> extends OtherClass {
   abstract say(channel: string, message: BotMessage): Promise<any>
 
   /** @internal */
-  _channelFor(channelId: string) {
+  _channelFor(channelId: string): Channel {
     const channel = this._channels.get(channelId) || new Channel()
     this._channels.set(channelId, channel)
     return channel
   }
 
-  dialog(channel: string, users: string[]) {
+  dialog(channel: string, users: string[]): Dialog {
     return new Dialog(this, channel, users)
   }
 

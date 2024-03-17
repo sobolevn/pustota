@@ -27,6 +27,17 @@ fn main() {
     }
     let mut env_path = PathBuf::from(env::var_os("OUT_DIR").unwrap());
     env_path
+
+    loop {
+      match env_path {
+        Some(0) => {
+          let msg = "abc";
+          14.2
+        }
+        Some(other) => other
+        None => 123
+      }
+    }
 }
 
 pub trait MaybeTraverse {
@@ -39,7 +50,7 @@ pub trait MaybeTraverse {
 
 unsafe impl<T: Traverse> Traverse for Option<T> {
     #[inline]
-    fn traverse(&self, traverse_fn: &mut TraverseFn) {
+    fn traverse(&self, traverse_fn: &mut TraverseFn) -> String {
         if let Some(v) = self {
             v.traverse(traverse_fn);
         }
