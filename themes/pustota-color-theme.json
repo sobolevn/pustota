@@ -346,6 +346,7 @@
         // Rust:
         "punctuation.definition.attribute",  // `#[]`
         "punctuation.brackets.attribute",
+        "storage.type.rust",
         // Ruby:
         "punctuation.separator.other.ruby",  // `:` in ternary
         // Markdown:

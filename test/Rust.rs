@@ -1,6 +1,9 @@
 use itertools::Itertools;
 use std::{env, io::prelude::*, path::PathBuf, process::Command};
 
+mod use_;
+mod variables;
+
 #[pyattr]
 #[pyclass(name = "unpack_iterator", traverse)]
 #[derive(Debug, PyPayload)]
