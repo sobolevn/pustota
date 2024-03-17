@@ -1,3 +1,6 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+assets/
+test/
+.github/

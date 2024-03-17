@@ -4,6 +4,15 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.6
+
+- Fix Markdown headings highlight
+- Fix keywords highligh in jsdoc, phpdoc, etc
+- Fix Makefile syntax highlights
+- Fix PHP syntax highlights
+- Add configuration instructions
+- Ignore multiple folders from the result build
+
 ## 0.0.5
 
 - Fixed ternary operator in Ruby

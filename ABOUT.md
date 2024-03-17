@@ -2,8 +2,6 @@
 
 [pustota](https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%81%D1%82%D0%BE%D1%82%D0%B0) is a minimalistic VSCode theme inspired by old-fashioned hobbies.
 
-[Install it from the official website](https://marketplace.visualstudio.com/items?itemName=sobolevn.pustota) or install it with CLI: `code --install-extension sobolevn.pustota`
-
 Core features:
 - Minimalistic
 - Borderless
@@ -29,6 +27,12 @@ This theme does not include an icon theme, so you can use any:
 - `Seti` - the default one - is also fine
 
 You can also check my [`.dotfiles`](https://github.com/sobolevn/dotfiles) with the whole setup.
+
+## Installation
+
+[Install it from the official website](https://marketplace.visualstudio.com/items?itemName=sobolevn.pustota) or install it with CLI: `code --install-extension sobolevn.pustota`
+
+And then choose `Preferences: Color Theme` to be `"pustota"`.
 
 ## Showcase
 

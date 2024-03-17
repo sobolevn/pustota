@@ -277,6 +277,11 @@
     {
       "scope": [
         "comment",
+
+        "comment.block.documentation storage.type.class",
+        "comment.block.documentation storage.type",
+        "comment.block.documentation storage",
+        "comment.block.documentation keyword.other",
       ],
       "settings": {
         "foreground": "#626A73",
@@ -344,7 +349,7 @@
         // Ruby:
         "punctuation.separator.other.ruby",  // `:` in ternary
         // Markdown:
-        "source.markdown entity.name.section",  // headers
+        "entity.name.section.markdown",  // headers
         // HTML / JSX / TSX:
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end",
@@ -353,6 +358,8 @@
         "source.toml support.type.property-name.array",
         // INI:
         "entity.name.section.group-title",
+        // Makefile:
+        "support.function.target.PHONY",
       ],
       "settings": {
         "foreground": "#FF8F40",
@@ -373,6 +380,8 @@
         "meta.macro.rules entity.name.function.macro.rust",
         // Ruby:
         "meta.function.method entity.name.function",
+        // PHP:
+        "meta.function.php entity.name.function",
         // Haskell:
         "meta.function.type-declaration entity.name.function",
         // SASS / SCSS:
@@ -389,6 +398,8 @@
         "markup.inline.raw.string",
         // HTML / JSX / TSX:
         "entity.other.attribute-name",
+        // Makefile:
+        "entity.name.function.target.makefile",
       ],
       "settings": {
         "foreground": "#FFB454",
@@ -462,6 +473,10 @@
         // Elixir and Ruby:
         "constant.language.symbol",
         "constant.other.symbol.hashkey",
+        // PHP:
+        "meta.method-call.static keyword.operator",
+        "keyword.operator.return-value.php",
+        "keyword.operator.class.php",
         // editorconfig:
         "source.editorconfig keyword.other.definition",
         // INI:
