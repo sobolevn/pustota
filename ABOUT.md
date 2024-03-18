@@ -48,6 +48,14 @@ Theme with default VSCode settings:
 
 ![default-terminal](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/default-terminal.png)
 
+## Recommended settings
+
+[Full list of the settings I use](https://github.com/sobolevn/dotfiles/blob/master/vscode/settings.json).
+
+Major ones:
+- `"editor.semanticHighlighting.enabled": false` to turn off semantic syntax
+- `"editor.matchBrackets": "never"` to turn off parens highlight
+
 ## Thanks to
 
 - [Ayu Dark](https://github.com/ayu-theme/vscode-ayu) which was the main source of the style and colors (and even some tests)
