@@ -34,6 +34,14 @@ You can also check my [`.dotfiles`](https://github.com/sobolevn/dotfiles) with t
 
 And then choose `Preferences: Color Theme` to be `"pustota"`.
 
+## Supported languages
+
+This theme [supports multiple languages](https://github.com/sobolevn/pustota/tree/master/test), starting from mainstream ones
+like Python, TypeScript, and Java.
+And ending with languages like Elixir, Lisp, and Haskell.
+
+If you want to contribute a language support, please feel free! :)
+
 ## Showcase
 
 Theme with [my VSCode settings](https://github.com/sobolevn/dotfiles/tree/master/vscode):
