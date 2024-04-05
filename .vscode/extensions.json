@@ -13,5 +13,7 @@
     "haskell.haskell",
     // TOML:
     "tamasfe.even-better-toml",
+    // Lisp:
+    "mattn.Lisp",
   ]
 }

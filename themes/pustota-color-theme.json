@@ -350,6 +350,8 @@
         "storage.type.rust",
         // Ruby:
         "punctuation.separator.other.ruby",  // `:` in ternary
+        // Lisp:
+        "storage.type.function-type.lisp",  // `def*`
         // Markdown:
         "entity.name.section.markdown",  // headers
         // HTML / JSX / TSX:
@@ -391,6 +393,8 @@
         "meta.at-rule support.function",
         // Bash:
         "meta.function entity.name.function.shell",
+        // Lisp:
+        "entity.name.function.lisp",
 
         // ---
         // Not really functions, but these elements also need a color accent
@@ -427,6 +431,8 @@
         // TS:
         "meta.type.declaration entity.name.type.alias",
         "meta.interface entity.name.type.interface",
+        // Lisp:
+        "entity.name.type.lisp",
 
         // ---
         // Not really types, but these elements also need a color accent
@@ -479,6 +485,8 @@
         "meta.method-call.static keyword.operator",
         "keyword.operator.return-value.php",
         "keyword.operator.class.php",
+        // Lisp:
+        "keyword.constant.lisp",  // :value
         // editorconfig:
         "source.editorconfig keyword.other.definition",
         // INI:
