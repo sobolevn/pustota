@@ -35,6 +35,6 @@
     "email": "mail@sobolevn.me"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.24.0"
+    "@vscode/vsce": "^2.25.0"
   }
 }
