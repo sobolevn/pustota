@@ -352,6 +352,8 @@
         "punctuation.separator.other.ruby",  // `:` in ternary
         // Lisp:
         "storage.type.function-type.lisp",  // `def*`
+        // Bash:
+        "storage.type.alias.shell",  // `alias` keyword
         // Markdown:
         "entity.name.section.markdown",  // headers
         // HTML / JSX / TSX:

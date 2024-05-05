@@ -75,4 +75,6 @@ function _init_script {
   fi
 }
 
+alias temp='temp -R'
+
 _init_script "$@"
