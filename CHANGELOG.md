@@ -4,6 +4,11 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.10
+
+- Fixes `${}` highlight in JS / TS
+- Fixes last char highlight when typing a string without ending quote in JS / TS
+
 ## 0.0.9
 
 - Fixes `alias` keyword in Bash

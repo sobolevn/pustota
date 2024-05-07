@@ -296,6 +296,8 @@
         "constant.other.symbol",
         "constant.character.escape",
 
+        // JS:
+        "string.quoted invalid.illegal.newline",  // in-progress strings
         // Markdown:
         "markup.quote meta.paragraph",
       ],
@@ -469,6 +471,8 @@
         "keyword.operator.access.dot",
         "keyword.operator.namespace",
 
+        // JS:
+        "string.template meta.template",  // expressions inside `${}`
         // TS:
         "meta.type.annotation entity.name.type",
         "meta.return.type entity.name.type",

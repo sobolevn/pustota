@@ -2,6 +2,9 @@ import { Binder } from './binder';
 import { Dialog } from './dialog';
 import { Channel } from './channel';
 
+const value = 'as'
+const subst = `a ${'b' + value + 'a'} b`
+
 export class Bot {
 
   constructor() {
