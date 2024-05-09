@@ -2,6 +2,8 @@
 
 [pustota](https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%81%D1%82%D0%BE%D1%82%D0%B0) is a minimalistic VSCode theme inspired by old-fashioned hobbies.
 
+[Preview online](https://vscode.dev/editor/theme/sobolevn.pustota) on `vscode.dev`!
+
 Core features:
 - Minimalistic
 - Borderless
