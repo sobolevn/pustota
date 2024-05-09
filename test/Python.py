@@ -33,6 +33,9 @@ class FrozenList(object):
     def __init__(self, l):
         self.l = tuple(l)
 
+    def raw_input(self):
+        print('abc')
+
     def __getitem__(self, key):
         return self.l[key]
 

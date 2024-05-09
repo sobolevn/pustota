@@ -4,6 +4,10 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.11
+
+- Fixes old legacy Python builtins not highlighted when used as function names
+
 ## 0.0.10
 
 - Fixes `${}` highlight in JS / TS
