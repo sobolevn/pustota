@@ -13,13 +13,13 @@
 - Only statically known parts are highlighed
 
 Unlike many other themes, this one only highlights a few things:
-1. Comments (`#626A73`)
-2. Strings (`#C2D94C`)
-3. Constants (`#E6B450`)
-4. Keywords and operators (`#FF8F40`)
-5. Function definitions (`#FFB454`)
-6. Type definitions (`#59C2FF`)
-7. Everything is just white (`#B3B1AD`)
+1. Comments (`#626A73`) ![#626A73](https://placehold.it/15/626A73/626A73?text=+)
+2. Strings (`#C2D94C`) ![#C2D94C](https://placehold.it/15/C2D94C/C2D94C?text=+)
+3. Constants (`#E6B450`) ![#E6B450](https://placehold.it/15/E6B450/E6B450?text=+)
+4. Keywords and operators (`#FF8F40`) ![#FF8F40](https://placehold.it/15/FF8F40/FF8F40?text=+)
+5. Function definitions (`#FFB454`) ![#FFB454](https://placehold.it/15/FFB454/FFB454?text=+)
+6. Type definitions (`#59C2FF`) ![#59C2FF](https://placehold.it/15/59C2FF/59C2FF?text=+)
+7. Everything is just white (`#B3B1AD`) ![#B3B1AD](https://placehold.it/15/B3B1AD/B3B1AD?text=+)
 
 Basically, this is it.
 
