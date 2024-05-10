@@ -4,14 +4,15 @@
 
 [Preview it online](https://vscode.dev/editor/theme/sobolevn.pustota) on `vscode.dev` with default settings.
 
-Core features:
+## Core features
+
 - Minimalistic
 - Borderless
 - High contrast for the needed parts
 - Small amount of colors
 - Only statically known parts are highlighed
 
-Unlike many other themes, this one only highlights:
+Unlike many other themes, this one only highlights a few things:
 1. Comments (`#626A73`)
 2. Strings (`#C2D94C`)
 3. Constants (`#E6B450`)
