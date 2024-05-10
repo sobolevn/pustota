@@ -354,6 +354,9 @@
         "punctuation.separator.other.ruby",  // `:` in ternary
         // Lisp:
         "storage.type.function-type.lisp",  // `def*`
+        // Objective-C:
+        "punctuation.definition.storage.type.objc",  // `@implementation` / etc
+        "punctuation.definition.keyword.objc",
         // Bash:
         "storage.type.alias.shell",  // `alias` keyword
         // Markdown:
@@ -400,6 +403,9 @@
         "meta.function entity.name.function.shell",
         // Lisp:
         "entity.name.function.lisp",
+        // Objective-C:
+        "meta.function entity.name.function.objc",  // function def with params
+        "meta.function entity.name.function.name-of-parameter.objc",
 
         // ---
         // Not really functions, but these elements also need a color accent
@@ -438,6 +444,8 @@
         "meta.interface entity.name.type.interface",
         // Lisp:
         "entity.name.type.lisp",
+        // Objective-C:
+        "meta.interface-or-protocol entity.name.type.objc",
 
         // ---
         // Not really types, but these elements also need a color accent
@@ -494,6 +502,8 @@
         "keyword.operator.class.php",
         // Lisp:
         "keyword.constant.lisp",  // :value
+        // Objective-C:
+        "source.objc keyword.other.property",  // `@property` / `@syntesize`
         // editorconfig:
         "source.editorconfig keyword.other.definition",
         // INI:
