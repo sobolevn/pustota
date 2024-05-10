@@ -19,7 +19,8 @@ Unlike many other themes, this one only highlights a few things:
 4. Keywords and operators (`#FF8F40`) ![#FF8F40](https://placehold.it/15/FF8F40/FF8F40?text=+)
 5. Function definitions (`#FFB454`) ![#FFB454](https://placehold.it/15/FFB454/FFB454?text=+)
 6. Type definitions (`#59C2FF`) ![#59C2FF](https://placehold.it/15/59C2FF/59C2FF?text=+)
-7. Everything is just white (`#B3B1AD`) ![#B3B1AD](https://placehold.it/15/B3B1AD/B3B1AD?text=+)
+
+Everything else is just white (`#B3B1AD`) ![#B3B1AD](https://placehold.it/15/B3B1AD/B3B1AD?text=+)
 
 Basically, this is it.
 
@@ -39,11 +40,12 @@ And then choose `Preferences: Color Theme` to be `"pustota"`.
 
 ## Supported languages
 
-This theme [supports multiple languages](https://github.com/sobolevn/pustota/tree/master/test), starting from mainstream ones
+This theme [supports a lot of languages](https://github.com/sobolevn/pustota/tree/master/test), starting from mainstream ones
 like Python, TypeScript, and Java.
 And ending with languages like Elixir, Lisp, and Haskell.
 
-If you want to contribute a language support, please feel free! :)
+If you want to contribute a language support, please feel free!
+It is quite easy to do, since there are only 5 major colors :)
 
 ## Showcase
 
