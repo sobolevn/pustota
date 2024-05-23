@@ -4,6 +4,10 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.13
+
+- Revert `0.0.12` change
+
 ## 0.0.12
 
 - Fixes Python builtins not highlighted when used as function names
