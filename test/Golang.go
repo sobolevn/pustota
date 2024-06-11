@@ -10,6 +10,10 @@ import (
 	"sort"
 )
 
+struct config {
+  port int
+}
+
 const hashLength int = sha256.Size
 
 func hash(t string, b []byte) [hashLength]byte {

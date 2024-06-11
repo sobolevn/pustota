@@ -339,7 +339,8 @@
         "punctuation.separator.annotation.result",  // `->` operator in annotations
 
         // C:
-        "constant.character.escape.line-continuation",  // `\` operator
+        "constant.character.escape.line-continuation.c",  // `\` operator
+        "storage.type.struct.c",  // `struct` keyword
         // JS:
         "meta.method.declaration storage.type",  // `constructor`
         // TS:
@@ -394,6 +395,8 @@
         "meta.function.method entity.name.function",
         // PHP:
         "meta.function.php entity.name.function",
+        // Go:
+        "entity.name.function.go",
         // Haskell:
         "meta.function.type-declaration entity.name.function",
         // SASS / SCSS:
@@ -428,8 +431,6 @@
       "scope": [
         "meta.class entity.name.type",
 
-        // C:
-        "source.c storage.type",
         // Rust:
         "entity.name.type.struct",
         "entity.name.type.trait",

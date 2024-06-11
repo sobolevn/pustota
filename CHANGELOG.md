@@ -4,6 +4,11 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.14
+
+- Improve `C` highlight: do not colorize builtin types
+- Imporve `go` highlight: highlight function names
+
 ## 0.0.13
 
 - Revert `0.0.12` change
