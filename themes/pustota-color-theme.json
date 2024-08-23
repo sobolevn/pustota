@@ -388,6 +388,8 @@
         // Python:
         "meta.function.python entity.name.function",
         "meta.function.python support.function",
+        "meta.function.python support.variable",
+        "meta.function.python support.type",
         "meta.function.python variable.legacy",  // old types used as functions
         // Rust:
         "meta.macro.rules entity.name.function.macro.rust",

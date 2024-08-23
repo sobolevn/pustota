@@ -46,6 +46,9 @@ class FrozenList(object):
     def __hash__(self):
         return hash(self.l)
 
+    def __module__(self):
+        return self.__module__
+
     def __eq__(self, other):
         return self.l == other.l
 

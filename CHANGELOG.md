@@ -4,6 +4,11 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.15
+
+- Fixes how functions deinitions with names
+  like `__module__` or `set` are highlighted in Python
+
 ## 0.0.14
 
 - Improve `C` highlight: do not colorize builtin types
