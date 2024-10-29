@@ -18,11 +18,6 @@
   // - some other internals
 
   "colors": {
-    // TODO:
-    // 1. Colors
-    // 2. ANSI
-    // 3. Search bar border
-
     // Editor
     // ======
 
@@ -180,7 +175,6 @@
     "listFilterWidget.noMatchesOutline": "#FF8F40",
     "listFilterWidget.outline": "#e6b450",
 
-    // TODO: rework all the small things
     "peekView.border": "#0A0E14",
     "peekViewEditor.background": "#0A0E14",
     "peekViewEditor.matchHighlightBackground": "#e6b45033",
