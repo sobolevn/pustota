@@ -2,7 +2,7 @@
   "name": "pustota",
   "displayName": "pustota",
   "description": "Minimalistic VSCode theme inspired by old-fashioned hobbies",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "scripts": {
     "package": "vsce package",
     "start": "npm run package",
@@ -24,14 +24,14 @@
     ]
   },
   "publisher": "sobolevn",
-  "homepage": "https://github.com/sobolevn/pustota",
+  "homepage": "https://github.com/pustota-theme/pustota",
   "icon": "assets/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sobolevn/pustota.git"
+    "url": "https://github.com/pustota-theme/pustota.git"
   },
   "bugs": {
-    "url": "https://github.com/sobolevn/pustota/issues",
+    "url": "https://github.com/pustota-theme/pustota/issues",
     "email": "mail@sobolevn.me"
   },
   "devDependencies": {

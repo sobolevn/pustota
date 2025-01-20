@@ -40,7 +40,7 @@ And then choose `Preferences: Color Theme` to be `"pustota"`.
 
 ## Supported languages
 
-This theme [supports a lot of languages](https://github.com/sobolevn/pustota/tree/master/test), starting from mainstream ones
+This theme [supports a lot of languages](https://github.com/pustota-theme/pustota/tree/master/test), starting from mainstream ones
 like Python, TypeScript, and Java.
 And ending with languages like Elixir, Lisp, and Haskell.
 
@@ -51,15 +51,15 @@ It is quite easy to do, since there are only 5 major colors :)
 
 Theme with [my VSCode settings](https://github.com/sobolevn/dotfiles/tree/master/vscode):
 
-![minimal](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/minimal.png)
+![minimal](https://raw.githubusercontent.com/pustota-theme/pustota/master/assets/minimal.png)
 
-![main](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/main.png)
+![main](https://raw.githubusercontent.com/pustota-theme/pustota/master/assets/main.png)
 
 Theme with default VSCode settings:
 
-![default](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/default.png)
+![default](https://raw.githubusercontent.com/pustota-theme/pustota/master/assets/default.png)
 
-![default-terminal](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/default-terminal.png)
+![default-terminal](https://raw.githubusercontent.com/pustota-theme/pustota/master/assets/default-terminal.png)
 
 ## Recommended settings
 

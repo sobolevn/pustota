@@ -21,6 +21,6 @@ and here
 *Italic*, **bold**, `code inline`, ~~crossed out~~
 
 [link](https://github.com)
-![main](https://raw.githubusercontent.com/sobolevn/pustota/master/assets/main.png)
+![main](https://raw.githubusercontent.com/pustota-theme/pustota/master/assets/main.png)
 [![image](https://link.com)](https://abc.ru)
 [`code link`](https://github.com)

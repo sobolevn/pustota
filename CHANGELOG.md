@@ -4,6 +4,11 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.18
+
+- Project was moved to https://github.com/pustota-theme org
+- All links were updated
+
 ## 0.0.17
 
 - Fixes Python highlight of types
