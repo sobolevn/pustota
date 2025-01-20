@@ -47,6 +47,10 @@ And ending with languages like Elixir, Lisp, and Haskell.
 If you want to contribute a language support, please feel free!
 It is quite easy to do, since there are only 5 major colors :)
 
+## Ports
+
+- Neovim port is available at [pustota.nvim](https://github.com/igor-gorohovsky/pustota.nvim).
+
 ## Showcase
 
 Theme with [my VSCode settings](https://github.com/sobolevn/dotfiles/tree/master/vscode):
