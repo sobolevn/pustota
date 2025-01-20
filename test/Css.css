@@ -1,0 +1,38 @@
+:root {
+  --main-bg-color: brown;
+}
+
+@property --logo-color {
+  inherits: false;
+  initial-value: #c0ffee;
+}
+
+body + footer {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+pre.example > #id1 {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  overflow: auto;
+  max-width: 100%;
+}
+
+.example {
+  color: var(--primary-color);
+}
+
+
+@media (30em < width < 50em) {
+  .other {
+    /* comment */
+  }
+}
+
+@media screen and (min-width: 30em) and (orientation: landscape) {
+  /* … */
+}

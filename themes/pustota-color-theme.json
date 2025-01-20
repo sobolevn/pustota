@@ -483,6 +483,9 @@
         "meta.return.type entity.name.type",
         "meta.type.parameters entity.name.type",
         "keyword.operator.type.annotation.ts",
+        // CSS:
+        "source.css support.constant",  // all values and constant likes
+        "source.css meta.at-rule support.function",  // `var()` func
         // JSON:
         "support.type.property-name",
         // YAML:
