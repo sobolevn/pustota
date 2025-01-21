@@ -480,6 +480,7 @@
 
         // JS:
         "string.template meta.template",  // expressions inside `${}`
+        "meta.class entity.name.type.module.js",  // `class A extends M.C`
         // TS:
         "meta.type.annotation entity.name.type",
         "meta.return.type entity.name.type",

@@ -13,3 +13,13 @@ export const Main = () =>
     <Component a="text" />
     <Component b=1 />
   </div>
+
+
+export class MyClassComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0,
+    }
+  }
+}
