@@ -7,6 +7,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 0.0.20
 
 - Improve `TypeScript` highlight: `enum` is now highlighted properly, #27
+- Improve `JavaScript` highlight:
+  `extends Module.Class` is now highlighted properly, #26
 
 ## 0.0.19
 
