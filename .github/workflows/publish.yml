@@ -8,7 +8,6 @@ name: publish
 permissions:
   contents: read
 
-name: Deploy Extension
 jobs:
   deploy:
     runs-on: ubuntu-latest
