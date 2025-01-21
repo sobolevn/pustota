@@ -17,6 +17,11 @@ interface Some {
   a: string
 }
 
+enum Colors {
+  RED = 'RED',
+  BLUE = 'BLUE',
+}
+
 export abstract class Bot<BotMessage = any> extends OtherClass {
   /** @internal */
   _dialogHandlers: DialogHandler<this>[] = []
