@@ -4,6 +4,10 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.21
+
+- Improve `CSS` highlight: fix `@keyframes` highlight, #30
+
 ## 0.0.20
 
 - Improve `TypeScript` highlight: `enum` is now highlighted properly, #27

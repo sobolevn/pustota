@@ -2,11 +2,6 @@
   --main-bg-color: brown;
 }
 
-@property --logo-color {
-  inherits: false;
-  initial-value: #c0ffee;
-}
-
 body + footer {
   font-family: Arial, sans-serif;
   margin: 20px;
@@ -24,6 +19,22 @@ pre.example > #id1 {
 
 .example {
   color: var(--primary-color);
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 

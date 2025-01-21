@@ -395,6 +395,8 @@
         "entity.name.function.go",
         // Haskell:
         "meta.function.type-declaration entity.name.function",
+        // CSS:
+        "entity.other.keyframe-offset",
         // SASS / SCSS:
         "meta.at-rule entity.name.function",
         "meta.at-rule support.function",
