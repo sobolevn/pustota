@@ -335,6 +335,8 @@
         // C:
         "constant.character.escape.line-continuation.c",  // `\` operator
         "storage.type.struct.c",  // `struct` keyword
+        "storage.type.enum.c",  // `enum`
+        "storage.type.union.c",  // `union`
         // JS:
         "meta.method.declaration storage.type",  // `constructor`
         // TS:

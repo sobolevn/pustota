@@ -23,6 +23,10 @@ struct student
     float marks;
 } s;
 
+enum Color chosenColor = GREEN;
+struct Point pt = { 10, 20 };
+union DataValue val;
+
 bool object_hash(/*const*/ json_object *j, byte hash[HASH_SIZE]);
 
 static void hash_update(hash_ctx * const c, const byte * const b,
