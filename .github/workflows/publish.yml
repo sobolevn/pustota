@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '20.14'
 
-      - run: npm run build
+      - run: npm install
 
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
