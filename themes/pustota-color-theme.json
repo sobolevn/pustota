@@ -340,6 +340,7 @@
         // TS:
         "meta.var.expr storage.type",  // `type`
         "meta.interface storage.type.interface",  // `interface`
+        "storage.type.enum.ts",  // `enum`
         "meta.type.declaration storage.type.type",
         // Rust:
         "punctuation.definition.attribute",  // `#[]`
@@ -438,6 +439,7 @@
         // TS:
         "meta.type.declaration entity.name.type.alias",
         "meta.interface entity.name.type.interface",
+        "entity.name.type.enum.ts",
         // Lisp:
         "entity.name.type.lisp",
         // Objective-C:
