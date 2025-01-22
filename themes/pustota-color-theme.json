@@ -375,6 +375,7 @@
         "storage.type.var.cs",
         "storage.type.accessor.get.cs",
         "storage.type.accessor.set.cs",
+        "storage.type.accessor.init.cs",
       ],
       "settings": {
         "foreground": "#FF8F40",
