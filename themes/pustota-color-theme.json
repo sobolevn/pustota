@@ -455,6 +455,7 @@
         // Objective-C:
         "meta.interface-or-protocol entity.name.type.objc",
         // C#:
+        "entity.name.type.cs",
         "entity.name.type.class.cs",
         "entity.name.type.namespace.cs",
 
