@@ -459,6 +459,7 @@
         "entity.name.type.cs",
         "entity.name.type.class.cs",
         "entity.name.type.namespace.cs",
+        "entity.name.type.alias.cs",
 
         // ---
         // Not really types, but these elements also need a color accent
