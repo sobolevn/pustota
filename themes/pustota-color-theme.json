@@ -376,6 +376,12 @@
         "storage.type.accessor.get.cs",
         "storage.type.accessor.set.cs",
         "storage.type.accessor.init.cs",
+        "storage.type.delegate.cs",
+        "storage.type.enum.cs",
+        "storage.type.struct.cs",
+        "storage.type.interface.cs",
+        "storage.type.event.cs",
+        "storage.type.operator.cs",
       ],
       "settings": {
         "foreground": "#FF8F40",
@@ -459,7 +465,11 @@
         "entity.name.type.cs",
         "entity.name.type.class.cs",
         "entity.name.type.namespace.cs",
+        "entity.name.type.interface.cs",
+        "entity.name.type.struct.cs",
         "entity.name.type.alias.cs",
+        "entity.name.type.enum.cs",
+        "entity.name.type.type-parameter.cs",
 
         // ---
         // Not really types, but these elements also need a color accent
