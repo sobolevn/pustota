@@ -230,6 +230,7 @@ namespace AllFeaturesExample
 
             // Record struct usage
             var recordStruct = new MyRecordStruct(10, 20);
+            MyRecordStruct recordStruct2 = new(10, 20);
             WriteLine($"Record struct: X={recordStruct.X}, Y={recordStruct.Y}");
 
             // LINQ usage
