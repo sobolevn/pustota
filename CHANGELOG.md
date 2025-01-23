@@ -4,6 +4,10 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.24
+
+- Fixing VSCodium support
+
 ## 0.0.23
 
 - Added VSCodium support, #16
