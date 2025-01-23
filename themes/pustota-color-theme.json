@@ -501,6 +501,8 @@
         "keyword.operator.access.dot",
         "keyword.operator.namespace",
 
+        // C#:
+        "source.cs keyword.type",  // primitive types like `int`
         // JS:
         "string.template meta.template",  // expressions inside `${}`
         "meta.class entity.name.type.module.js",  // `class A extends M.C`
