@@ -7,6 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 0.0.22
 
 - Improve `C` highlight: fix `union` and `enum`, #32
+- Improve `C#` highlight: fix types and classes highlight
 
 ## 0.0.21
 
