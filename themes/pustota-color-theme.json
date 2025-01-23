@@ -462,14 +462,11 @@
         // Objective-C:
         "meta.interface-or-protocol entity.name.type.objc",
         // C#:
-        "entity.name.type.cs",
         "entity.name.type.class.cs",
-        "entity.name.type.namespace.cs",
         "entity.name.type.interface.cs",
         "entity.name.type.struct.cs",
         "entity.name.type.alias.cs",
         "entity.name.type.enum.cs",
-        "entity.name.type.type-parameter.cs",
 
         // ---
         // Not really types, but these elements also need a color accent
