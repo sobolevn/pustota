@@ -4,6 +4,10 @@ All notable changes to the "pustota" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.23
+
+- Added VSCodium support, #16
+
 ## 0.0.22
 
 - Improve `C` highlight: fix `union` and `enum`, #32
