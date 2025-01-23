@@ -36,6 +36,8 @@ You can also check my [`.dotfiles`](https://github.com/sobolevn/dotfiles) with t
 
 [Install it from the official website](https://marketplace.visualstudio.com/items?itemName=sobolevn.pustota) or install it with CLI: `code --install-extension sobolevn.pustota`
 
+VSCodium and OpenVSX [are also supported](https://open-vsx.org/extension/sobolevn/pustota).
+
 And then choose `Preferences: Color Theme` to be `"pustota"`.
 
 ## Supported languages
