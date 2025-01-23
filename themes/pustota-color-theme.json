@@ -369,6 +369,19 @@
         "entity.name.section.group-title",
         // Makefile:
         "support.function.target.PHONY",
+        // C#:
+        "storage.type.namespace.cs",
+        "storage.type.record.cs",
+        "storage.type.var.cs",
+        "storage.type.accessor.get.cs",
+        "storage.type.accessor.set.cs",
+        "storage.type.accessor.init.cs",
+        "storage.type.delegate.cs",
+        "storage.type.enum.cs",
+        "storage.type.struct.cs",
+        "storage.type.interface.cs",
+        "storage.type.event.cs",
+        "storage.type.operator.cs",
       ],
       "settings": {
         "foreground": "#FF8F40",
@@ -448,6 +461,12 @@
         "entity.name.type.lisp",
         // Objective-C:
         "meta.interface-or-protocol entity.name.type.objc",
+        // C#:
+        "entity.name.type.class.cs",
+        "entity.name.type.interface.cs",
+        "entity.name.type.struct.cs",
+        "entity.name.type.alias.cs",
+        "entity.name.type.enum.cs",
 
         // ---
         // Not really types, but these elements also need a color accent
@@ -482,6 +501,8 @@
         "keyword.operator.access.dot",
         "keyword.operator.namespace",
 
+        // C#:
+        "source.cs keyword.type",  // primitive types like `int`
         // JS:
         "string.template meta.template",  // expressions inside `${}`
         "meta.class entity.name.type.module.js",  // `class A extends M.C`
